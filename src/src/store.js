@@ -3,7 +3,7 @@ import { setupListeners } from "@reduxjs/toolkit/query";
 import { logger } from "redux-logger";
 
 import { DEBUG } from "./constants";
-import messagesReducer from "features/messages";
+import messagesReducer from "./features/messages";
 import api from "api";
 
 const store = configureStore({
