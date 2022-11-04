@@ -6,7 +6,7 @@ import { ErrorBoundary } from "react-error-boundary";
 import { Alert } from "@mui/material";
 
 import { BACKEND_HOST } from "constants";
-import MainRouting from "components/Routing";
+import MainRouting from "./components/Routing";
 
 const pdfWorker = `${BACKEND_HOST}/static/front/pdfjs-dist/legacy/build/pdf.worker.min.js`;
 
