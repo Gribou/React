@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import { URL_ROOT } from "constants";
+import { URL_ROOT } from "/src/constants";
 
 import { ERROR_ROUTES, ROUTES } from "routes";
 import Layout from "components/Layout";
