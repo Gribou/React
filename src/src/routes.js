@@ -1,5 +1,5 @@
 import React from "react";
-import { URL_ROOT } from "constants";
+import { URL_ROOT } from "./constants";
 import {
   NotFoundPage,
   TabletFilePage,
