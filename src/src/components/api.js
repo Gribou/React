@@ -1,6 +1,6 @@
 import axios from "axios";
 import { createApi } from "@reduxjs/toolkit/query/react";
-import { endpoints as gallery, GALLERY_TAG } from "features/gallery/api";
+import { endpoints as gallery, GALLERY_TAG } from "./features/gallery/api";
 import { API_URI, DEBUG } from "./constants";
 
 axios.defaults.baseURL = `${API_URI}/`;
