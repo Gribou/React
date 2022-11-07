@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { useSelector } from "react-redux";
-import api from "api";
+import api from "./api";
 
 const initialState = { message: "" };
 
