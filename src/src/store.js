@@ -4,7 +4,7 @@ import { logger } from "redux-logger";
 
 import { DEBUG } from "./constants";
 import messagesReducer from "./features/messages";
-import api from "api";
+import api from "./api";
 
 const store = configureStore({
   reducer: {
