@@ -5,7 +5,7 @@ import { Worker } from "@react-pdf-viewer/core";
 import { ErrorBoundary } from "react-error-boundary";
 import { Alert } from "@mui/material";
 
-import { BACKEND_HOST } from "./src/constants";
+import { BACKEND_HOST } from "./src/src/constants";
 import MainRouting from "./components/Routing";
 
 const pdfWorker = `${BACKEND_HOST}/static/front/pdfjs-dist/legacy/build/pdf.worker.min.js`;
