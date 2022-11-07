@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import { URL_ROOT } from "constants";
+import { URL_ROOT } from "./constants";
 
-import { ERROR_ROUTES, ROUTES } from "routes";
+import { ERROR_ROUTES, ROUTES } from "./routes";
 import Layout from "components/Layout";
 
 export default function MainRouting() {
