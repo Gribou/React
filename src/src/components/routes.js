@@ -7,7 +7,7 @@ import {
   TabletGalleryPage,
   TabletProfilePage,
   TabletSearchPage,
-} from "components/pages";
+} from "./components/pages";
 
 export const TABLET_ROUTES = {
   file_in_profile: {
