@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useCurrentProfile } from "features/profile";
 import { useSearchQuery, generateErrorMessage } from "api";
-import { DEBUG, BACKEND_HOST } from "constants";
+import { DEBUG, BACKEND_HOST } from "./constants";
 
 const MAX_API_RESULTS = 6;
 
