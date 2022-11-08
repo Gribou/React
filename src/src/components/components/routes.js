@@ -1,5 +1,5 @@
 import React from "react";
-import { URL_ROOT } from "constants";
+import { URL_ROOT } from "./constants";
 import {
   NotFoundPage,
   TabletFilePage,
@@ -7,7 +7,7 @@ import {
   TabletGalleryPage,
   TabletProfilePage,
   TabletSearchPage,
-} from "components/pages";
+} from "./components/pages";
 
 export const TABLET_ROUTES = {
   file_in_profile: {
