@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src"
+    "baseUrl": "."
   },
-  "include": ["src", "api/services.js"]
+  "include": ["api/services.js"]
 }
